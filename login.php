@@ -9,7 +9,7 @@
     <form method="post" action=welcome.php>
         <h2>Log in</h2>
         username<br><input type="text" name="name"><br>
-        password<br><input type="text" name="password"><br><br>
+        password<br><input type="password" name="password"><br><br>
         <input type="submit" value="Log in"><br>
     </form>
 </body>
@@ -42,7 +42,7 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
-    input[type=text] {
+    input {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
