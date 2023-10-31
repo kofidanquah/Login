@@ -3,19 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form method="post" action=welcome.php>
-        <h2>Log in</h2>
-        username<br><input type="text" name="name"><br>
-        password<br><input type="password" name="password"><br><br>
-        <input type="submit" value="Log in"><br>
-    </form>
-</body>
-</html>
-
-<style>
+    <style>
         body {
         background-image: url("background\ image.jfif");
         background-repeat: no-repeat;
@@ -63,3 +51,16 @@
         cursor: pointer;
     }
 </style>
+
+    <title>login</title>
+</head>
+<body>
+    <form method="post" action=welcome.php>
+        <h2>Log in</h2>
+        username<br><input type="text" name="name"><br>
+        password<br><input type="password" name="password"><br><br>
+        <input type="submit" value="Log in"><br>
+    </form>
+</body>
+</html>
+
