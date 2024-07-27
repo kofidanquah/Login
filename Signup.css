@@ -1,0 +1,81 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    justify-content: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#toggle-password,
+#toggle-password_confirmation {
+    cursor: pointer;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.home:hover {
+    color: #111;
+}
+
+.alert {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+
+/* checkbox */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 12px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    top: 2px;
+    left: 6px;
+    display: none;
+}
+
+input[type="checkbox"]:checked+.custom-checkbox::after {
+    display: block;
+}
